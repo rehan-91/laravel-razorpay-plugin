@@ -1,5 +1,5 @@
 {
-  "name": "rehan/laravel-razorpay-plugin",
+  "name": "rehan91/laravel-razorpay-plugin",
   "description": "A simple Laravel plugin to integrate Razorpay payments.",
   "type": "library",
   "license": "MIT",
