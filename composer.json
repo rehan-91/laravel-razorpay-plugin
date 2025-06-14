@@ -1,0 +1,29 @@
+{
+  "name": "rehan/laravel-razorpay-plugin",
+  "description": "A simple Laravel plugin to integrate Razorpay payments.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rehan Nawaz",
+      "email": "hhprehan@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "razorpay/razorpay": "^2.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "RazorpayPlugin\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RazorpayPlugin\\RazorpayServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable"
+}
